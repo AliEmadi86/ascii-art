@@ -1,3 +1,22 @@
 #!/bin/bash
 
-echo hii
+clear
+
+for ((i=0;i<10;i++)); do
+   printf "\r  |  "
+   sleep 0.2
+   printf "\r ( )  "
+   sleep 0.2
+   printf "\r( H )"
+   sleep 0.2
+   printf "\r ( )  "
+   sleep 0.2
+   printf "\r  |  "
+   sleep 0.2
+   printf "\r ( )  "
+   sleep 0.2
+   printf "\r( T ) "
+   sleep 0.2
+   printf "\r ( )  "
+   sleep 0.2
+done
